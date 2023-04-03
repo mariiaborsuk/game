@@ -1,0 +1,156 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: 2px solid #bfdbd9;
+  display: flex;
+  flex-direction: row;
+}
+.container > div {
+  border: 2px solid #bfdbd9;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.container > div > div {
+  border: 5px solid #bfdbd9;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #425453;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 4vh;
+  justify-content: center;
+}
+.buttons {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.buttons > button {
+  width: 50px;
+  height: 50px;
+  background-color: #425453;
+  margin: auto;
+  color: #06d4cd;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+.message {
+  width: 40%;
+  height: 30%;
+  background-color: #06d4cd;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.messageB {
+  height: 50%;
+  width: 50%;
+  border-radius: 40px;
+  background-color: #06d4cd;
+  color: #425453;
+  font-weight: bolder;
+  font-size: 3vh;
+}
+.message > div {
+  flex: 1;
+}
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+}
+.buttons2 > div {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.content {
+  width: 80%;
+  margin: auto;
+}
+.hidden {
+  display: none;
+}
+.content2 {
+  width: 80%;
+  margin: auto;
+  height: 90vh;
+  font-size: 5vh;
+}
+.main {
+  width: 40%;
+  margin: auto;
+  height: 40%;
+  background-color: #425453;
+  margin-top: 10%;
+  margin-left: 20%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  text-align: center;
+  color: #06d4cd;
+  font-weight: bolder;
+}
+.main > div {
+  flex: 1;
+  padding-top: 2%;
+}
+.sButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.size {
+  flex-basis: 20%;
+  margin: 2%;
+  border-radius: 20px;
+  font-size: 5vh;
+  background-color: #06d4cd;
+  color: #425453;
+  font-weight: bolder;
+}
+.start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.startBtn {
+  flex-basis: 20%;
+  height: 80%;
+  border-radius: 20px;
+  font-size: 3vh;
+  background-color: #bfdbd9;
+  color: #425453;
+  font-weight: bolder;
+}
+.winner {
+  text-align: center;
+  padding-top: 5%;
+  color: #425453;
+  font-size: 4vh;
+  font-weight: bolder;
+}
+.grey {
+  background-color: #bfdbd9;
+}
